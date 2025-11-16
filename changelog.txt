@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2025-11-16
+  Added:
+    - Pollution penalty. 1/2.5/5 % to each tier.
+  Updates:
+    - Removed a line I had added for testing that limited the use of the modules.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2025-11-16
   Updates:
