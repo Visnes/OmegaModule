@@ -1,0 +1,32 @@
+-- item prototypes for the Omega Modules (tier 1..3)
+local util = require("util")
+
+data:extend({
+  {
+    type = "item",
+    name = "omega-module-1",
+    icon = "__omega-module__/graphics/icons/omega-module-1.png",
+    icon_size = 64,
+    subgroup = "module",
+    order = "z[omega]-a[omega-module-1]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "omega-module-2",
+    icon = "__omega-module__/graphics/icons/omega-module-2.png",
+    icon_size = 64,
+    subgroup = "module",
+    order = "z[omega]-a[omega-module-2]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "omega-module-3",
+    icon = "__omega-module__/graphics/icons/omega-module-3.png",
+    icon_size = 64,
+    subgroup = "module",
+    order = "z[omega]-a[omega-module-3]",
+    stack_size = 50
+  }
+})
