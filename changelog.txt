@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2025-11-16
+  Added:
+    - Setting to turn off pollution penalty.
+  Updates:
+    - Increased pollution penalty to 10/25/50 % since they are very powerful.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2025-11-16
   Fixes:
