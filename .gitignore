@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+*.zip
+*.lua~  # backup from some editors
