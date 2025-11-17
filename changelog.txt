@@ -5,7 +5,7 @@ Date: 2025-11-17
     - You can now toggle which effect you want to be active with the Omega Module. All effects on by default
     - You can now multiply the research cost of the Omega Module. 1 is default (range is 0-10 where 0 is half the cost of default)
   Updates:
-    - Made the recipes more expensive since they are so powerful. Tier 1-3 requires 5000/10000/50000 sciences packs respectively
+    - Made the research more expensive since they are so powerful. Tier 1-3 requires 5000/10000/50000 sciences packs respectively
       - Tier 1 now requires processing unit, tungsten carbide, holmium plate, bioflux and modules
       - Tier 2 now requires quantum-processor and modules
       - Tier 3 now requires 10 of speed 3, efficiency 3, productivity 3, quality 3 and omega 2, and will also need one full stack of each of the following: pentapod eggs, supercapacitors, quantum processors and tungsten plates.
