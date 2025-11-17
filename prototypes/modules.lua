@@ -1,19 +1,41 @@
+local speed_enabled = settings.startup["omega-module-speed"].value
+local productivity_enabled = settings.startup["omega-module-productivity"].value
+local consumption_enabled = settings.startup["omega-module-consumption"].value
+local quality_enabled = settings.startup["omega-module-quality"].value
 local pollution_enabled = settings.startup["omega-module-pollution"].value
 
 local omega_module_prototypes = {
   {
     name = "omega-module",
-    effects = { speed = 0.20, consumption = -0.30, productivity = 0.04, quality = 0.1, pollution = pollution_enabled and 0.1 or 0 },
+    effects = {
+      speed = speed_enabled and 0.20 or 0,
+      consumption = consumption_enabled and -0.30 or 0,
+      productivity = productivity_enabled and 0.04 or 0,
+      quality = quality_enabled and 0.10 or 0,
+      pollution = pollution_enabled and 0.01 or 0
+    },
     tier = 1
   },
   {
     name = "omega-module-2",
-    effects = { speed = 0.30, consumption = -0.40, productivity = 0.06, quality = 0.2, pollution = pollution_enabled and 0.25 or 0 },
+    effects = {
+      speed = speed_enabled and 0.30 or 0,
+      consumption = consumption_enabled and -0.40 or 0,
+      productivity = productivity_enabled and 0.06 or 0,
+      quality = quality_enabled and 0.20 or 0,
+      pollution = pollution_enabled and 0.025 or 0
+    },
     tier = 2
   },
   {
     name = "omega-module-3",
-    effects = { speed = 0.50, consumption = -0.50, productivity = 0.10, quality = 0.25, pollution = pollution_enabled and 0.5 or 0 },
+    effects = {
+      speed = speed_enabled and 0.50 or 0,
+      consumption = consumption_enabled and -0.50 or 0,
+      productivity = productivity_enabled and 0.10 or 0,
+      quality = quality_enabled and 0.25 or 0,
+      pollution = pollution_enabled and 0.05 or 0
+    },
     tier = 3
   }
 }

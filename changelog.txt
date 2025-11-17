@@ -1,34 +1,51 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2025-11-17
+  Added:
+    - You can now toggle which effect you want to be active with the Omega Module. All effects on by default
+    - You can now multiply the research cost of the Omega Module. 1 is default (range is 0-10 where 0 is half the cost of default)
+  Updates:
+    - Made the recipes more expensive since they are so powerful. Tier 1-3 requires 5000/10000/50000 sciences packs respectively
+      - Tier 1 now requires processing unit, tungsten carbide, holmium plate, bioflux and modules
+      - Tier 2 now requires quantum-processor and modules
+      - Tier 3 now requires 10 of speed 3, efficiency 3, productivity 3, quality 3 and omega 2, and will also need one full stack of each of the following: pentapod eggs, supercapacitors, quantum processors and tungsten plates.
+    - Moved the unlock of tier 1 to after having unlocked all mid planets (Gleba, Vulcanus and Fulgora)
+    - Moved the unlock of tier 2 to Aquilo
+    - Tier 3 now requires promethium science pack to unlock
+  Bugs
+    - Cleaned up some of the code
+    - Also fixed a typo where the easy tier 3 recipe was *very* expensive
+---------------------------------------------------------------------------------------------------
 Version: 1.1.3
 Date: 2025-11-16
   Updates:
-    - Graphics.
+    - Graphics
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.2
 Date: 2025-11-16
   Added:
-    - Setting to turn off pollution penalty.
+    - Setting to turn off pollution penalty
   Updates:
-    - Increased pollution penalty to 10/25/50 % since they are very powerful.
+    - Increased pollution penalty to 10/25/50 % since they are very powerful
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2025-11-16
   Fixes:
-    - I think I've fixed a problem with where you can place the modules.
+    - I think I've fixed a problem with where you can place the modules
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2025-11-16
   Added:
-    - Pollution penalty. 1/2.5/5 % to each tier.
+    - Pollution penalty. 1/2.5/5 % to each tier
   Updates:
-    - Removed a line I had added for testing that limited the use of the modules.
+    - Removed a line I had added for testing that limited the use of the modules
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2025-11-16
   Updates:
-    - Changed the graphics to make it more unique.
+    - Changed the graphics to make it more unique
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2025-11-16
   Updates:
-    - Initial release.
+    - Initial release

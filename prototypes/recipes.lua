@@ -1,4 +1,5 @@
-local easy = settings.startup["omega-module-easy-recipe"] and settings.startup["omega-module-easy-recipe"].value
+local easy = settings.startup["omega-module-easy-recipe"] 
+  and settings.startup["omega-module-easy-recipe"].value
 
 local function make_ingredient(name, amount)
   return { type = "item", name = name, amount = amount }
@@ -18,7 +19,10 @@ local omega_recipes = {
       make_ingredient("efficiency-module", 1),
       make_ingredient("productivity-module", 1),
       make_ingredient("quality-module", 1),
-      make_ingredient("processing-unit", 10)
+      make_ingredient("processing-unit", 20),
+      make_ingredient("tungsten-carbide", 10),
+      make_ingredient("holmium-plate", 10),
+      make_ingredient("bioflux", 10),
     }
   },
   {
@@ -36,7 +40,7 @@ local omega_recipes = {
       make_ingredient("efficiency-module-2", 2),
       make_ingredient("productivity-module-2", 2),
       make_ingredient("quality-module-2", 2),
-      make_ingredient("superconductor", 10),
+      make_ingredient("quantum-processor", 100),
     }
   },
   {
@@ -47,14 +51,17 @@ local omega_recipes = {
       make_ingredient("speed-module-3", 5),
       make_ingredient("efficiency-module-3", 5),
       make_ingredient("productivity-module-3", 5),
-      make_ingredient("quality-module-3", 150),
-    } or {
-      make_ingredient("omega-module-2", 5),
-      make_ingredient("speed-module-3", 5),
-      make_ingredient("efficiency-module-3", 5),
-      make_ingredient("productivity-module-3", 5),
       make_ingredient("quality-module-3", 5),
-      make_ingredient("quantum-processor", 10),
+    } or {
+      make_ingredient("omega-module-2", 10),
+      make_ingredient("speed-module-3", 10),
+      make_ingredient("efficiency-module-3", 10),
+      make_ingredient("productivity-module-3", 10),
+      make_ingredient("quality-module-3", 10),
+      make_ingredient("pentapod-egg", 20),
+      make_ingredient("supercapacitor", 100),
+      make_ingredient("quantum-processor", 100),
+      make_ingredient("tungsten-plate", 50),
     }
   }
 }
@@ -67,7 +74,8 @@ for _, r in pairs(omega_recipes) do
       enabled = false,
       energy_required = r.energy,
       ingredients = r.ingredients,
-      results = { { type = "item", name = r.name, amount = 1 } }
+      results = { { type = "item", name = r.name, amount = 1 } },
+      main_product = r.name,
     }
   })
 end
