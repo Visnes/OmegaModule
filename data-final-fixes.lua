@@ -14,15 +14,15 @@ local function table_contains(tbl, val)
     return false
 end
 
+-- In 2.0, module slots/categories live directly on the prototype (the 1.1-era
+-- module_specification is gone). A machine with no allowed_module_categories
+-- already allows every category, so the omega-module category works there for
+-- free. We only need to whitelist machines that explicitly restrict categories
+-- (e.g. other mods), and even then insertion is still gated by allowed_effects
+-- (notably beacons reject productivity/quality, so omega modules can't go in
+-- beacons regardless of this).
 for _, holder_type in pairs(holders) do
     for _, entity in pairs(data.raw[holder_type] or {}) do
-        if entity.module_specification then
-            entity.module_specification.module_categories = entity.module_specification.module_categories or {}
-            if not table_contains(entity.module_specification.module_categories, "omega-module") then
-                table.insert(entity.module_specification.module_categories, "omega-module")
-            end
-        end
-
         if entity.allowed_module_categories then
             if not table_contains(entity.allowed_module_categories, "omega-module") then
                 table.insert(entity.allowed_module_categories, "omega-module")

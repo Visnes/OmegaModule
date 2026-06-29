@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 2026-06-29
+  Changes:
+    - Added Space Age as a required dependency so the mod fails gracefully instead of crashing when it is missing
+    - Renamed the "Consumption" startup setting label to "Efficiency" to match the effect it controls
+  Bugfixes:
+    - Fixed a malformed changelog category that could hide entries in-game
+  Minor Features:
+    - Cleaned up the module-category code (removed a dead 1.1-era code path)
+---------------------------------------------------------------------------------------------------
 Version: 1.2.1
   Added:
     - Norwegian language
@@ -16,7 +26,7 @@ Date: 2025-11-17
     - Moved the unlock of tier 1 to after having unlocked all mid planets (Gleba, Vulcanus and Fulgora)
     - Moved the unlock of tier 2 to Aquilo
     - Tier 3 now requires promethium science pack to unlock
-  Bugs
+  Bugs:
     - Cleaned up some of the code
     - Also fixed a typo where the easy tier 3 recipe was *very* expensive
 ---------------------------------------------------------------------------------------------------
