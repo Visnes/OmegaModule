@@ -20,6 +20,12 @@ This mod adds an endgame Omega Module that combines the effects of Speed, Effici
 - You can multiply the cost of the modules research cost (range is 0-10 where 0 is half the cost of default)
 
 ## Screenshots
+<p align="center">
+  <img src="screenshots/OmegaModule-FP-1.png" width="33%">
+  <img src="screenshots/OmegaModule-FP-2.png" width="33%">
+  <img src="screenshots/OmegaModule-FP-3.png" width="33%">
+</p>
+
 <img width="256" alt="omegamodule1" src="https://github.com/user-attachments/assets/24de4be0-933b-4d8b-9291-d511fe2b8bdf" />
 <img width="256" alt="omegamodule2" src="https://github.com/user-attachments/assets/20e727c6-c9b4-4291-ba3e-8628c5745898" />
 <img width="256" alt="omegamodule3" src="https://github.com/user-attachments/assets/656ffb37-dbb0-436a-8635-c303a0a8c045" />
