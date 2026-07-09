@@ -6,5 +6,7 @@ Thumbs.db
 *.swo
 .idea/
 .vscode/
+.claude/
+CLAUDE.md
 *.zip
 *.lua~  # backup from some editors
