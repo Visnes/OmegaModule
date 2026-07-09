@@ -4,6 +4,8 @@ This mod adds an endgame Omega Module that combines the effects of Speed, Effici
 
 <img width="512" height="512" alt="thumbnail" src="https://github.com/user-attachments/assets/2d2aade3-b416-467d-b802-014676891212" />
 
+[Short TikTok video showing off the mod](https://www.tiktok.com/@mods_factorio/video/7599256618496167190)
+
 
 ## Notes
 - Each tier adds the effects of the other four modules
@@ -25,8 +27,6 @@ This mod adds an endgame Omega Module that combines the effects of Speed, Effici
   <img src="screenshots/OmegaModule-FP-2.png" width="30%">
   <img src="screenshots/OmegaModule-FP-3.png" width="30%">
 </p>
-<img width="256" alt="omegamoduleresearch" src="https://github.com/user-attachments/assets/6bc12bb6-9b09-4ad6-a282-34fe30319874" />
-
 
 ## Installation
 1. Use the ingame mod browser
@@ -34,3 +34,4 @@ This mod adds an endgame Omega Module that combines the effects of Speed, Effici
 3. Click install
 
 License: MIT
+
