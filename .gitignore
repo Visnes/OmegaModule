@@ -27,7 +27,7 @@ SKILL.md
 # Logs
 *.log
 
-# Node/web tooling (if you ever add website tooling)
+# Node/web tooling
 node_modules/
 dist/
 build/
