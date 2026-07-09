@@ -1,9 +1,17 @@
 # Omega Module
 
+> [!WARNING]
+> ## Factorio 2.1 Experimental Version
+>
+> This branch is intended **only for Factorio 2.1 Experimental**.
+>
+> For Factorio 2.0, use the `main` branch.
+>
+> This version may change as Factorio 2.1 develops and is not considered stable.
+
 This mod adds an endgame Omega Module that combines the effects of Speed, Efficiency, Productivity and Quality modules into a single module item.
 
 <img width="512" height="512" alt="thumbnail" src="https://github.com/user-attachments/assets/2d2aade3-b416-467d-b802-014676891212" />
-
 
 ## Notes
 - Each tier adds the effects of the other four modules
