@@ -1,12 +1,40 @@
+# OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Editor files
+.idea/
+.vscode/
+
+# Temporary files
 *.bak
 *.tmp
 *.swp
 *.swo
-.idea/
-.vscode/
+*.lua~
+
+# Claude / AI files
 .claude/
 CLAUDE.md
+SKILL.md
+
+# Archives / builds
+/_archive/
 *.zip
-*.lua~  # backup from some editors
+*.tar.gz
+
+# Logs
+*.log
+
+# Node/web tooling
+node_modules/
+dist/
+build/
+
+# Factorio mod development
+*.old
+*.bak
+
+# Assets
+/_assets/
