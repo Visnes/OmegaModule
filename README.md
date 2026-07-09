@@ -21,9 +21,9 @@ This mod adds an endgame Omega Module that combines the effects of Speed, Effici
 
 ## Screenshots
 <p align="center">
-  <img src="screenshots/OmegaModule-FP-1.png" width="33%">
-  <img src="screenshots/OmegaModule-FP-2.png" width="33%">
-  <img src="screenshots/OmegaModule-FP-3.png" width="33%">
+  <img src="screenshots/OmegaModule-FP-1.png" width="30%">
+  <img src="screenshots/OmegaModule-FP-2.png" width="30%">
+  <img src="screenshots/OmegaModule-FP-3.png" width="30%">
 </p>
 
 <img width="256" alt="omegamodule1" src="https://github.com/user-attachments/assets/24de4be0-933b-4d8b-9291-d511fe2b8bdf" />
