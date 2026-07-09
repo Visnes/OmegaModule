@@ -1,10 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2026-07-08
+  Changes:
+    - Added version support for 2.1 Experimental. Please report bugs as I'm currently on vacation and can't test. :P
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
 Version: 1.2.2
 Date: 2026-06-29
   Changes:
     - Added Space Age as a required dependency so the mod fails gracefully instead of crashing when it is missing
     - Renamed the "Consumption" startup setting label to "Efficiency" to match the effect it controls
   Bugfixes:
+    - Defined prototypes in the base data stage so Omega Modules keep their auto-generated recycling recipes
     - Fixed a malformed changelog category that could hide entries in-game
   Minor Features:
     - Cleaned up the module-category code (removed a dead 1.1-era code path)
