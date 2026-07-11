@@ -3,6 +3,7 @@ local productivity_enabled = settings.startup["omega-module-productivity"].value
 local consumption_enabled = settings.startup["omega-module-consumption"].value
 local quality_enabled = settings.startup["omega-module-quality"].value
 local pollution_enabled = settings.startup["omega-module-pollution"].value
+local easy_recipe = settings.startup["omega-module-easy-recipe"].value
 
 local omega_module_prototypes = {
   {
@@ -52,6 +53,7 @@ for _, mod in pairs(omega_module_prototypes) do
       tier = mod.tier,
       order = "z[omega]-" .. mod.name,
       stack_size = 50,
+      weight = easy_recipe and 20000 or nil,
 
       effect = {
         speed = mod.effects.speed,
