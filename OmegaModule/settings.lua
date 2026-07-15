@@ -50,5 +50,12 @@ data:extend({
     setting_type = "startup",
     default_value = true,
     order = "g"
+  },
+  {
+    type = "bool-setting",
+    name = "omega-module-quality-pollution-scaling",
+    setting_type = "startup",
+    default_value = false,
+    order = "h"
   }
 })

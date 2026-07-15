@@ -62,6 +62,7 @@ save; a mod update won't reset values you've already set).
 | Enable Productivity Effect | On | Toggles the productivity bonus. |
 | Enable Efficiency Effect | On | Toggles the energy consumption bonus (shown in-game as "Efficiency"). |
 | Enable Quality Effect | On | Toggles the quality bonus. |
+| Pollution Scales With Quality | Off | Higher-quality Omega Modules (uncommon/rare/epic/legendary) also get a proportionally worse pollution penalty — e.g. Tier 3 rises from 5% to 11% at legendary. Off means the pollution penalty is the same regardless of item quality. |
 | Science Pack Multiplier | 1 (range 0-10) | Multiplies the science pack cost of the three Omega Module technologies. `0` is half the default cost; higher values make research more expensive. |
 
 Disabling an effect toggle removes that effect from the module entirely (it
