@@ -1,13 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.1.0
-Date: 2026-07-08
-  Changes:
-    - Added version support for 2.1 Experimental. Please report bugs as I'm currently on vacation and can't test. :P
+Version: 2.1.1
+Date: 2026-11-15
   Minor Features:
     - Easy recipes mode now also gives Omega Modules a flat, rocket-friendly weight (20,000) instead of Factorio's auto-calculated weight, so all three tiers can be shipped by rocket/space platform
     - Added a new "Pollution Scales With Quality" setting (default disabled) that, when enabled, makes higher quality Omega Modules also have a proportionally worse pollution penalty
 ---------------------------------------------------------------------------------------------------
-
+Version: 2.1.0
+Date: 2026-07-08
+  Changes:
+    - Added version support for 2.1 Experimental. Please report bugs as I'm currently on vacation and can't test. :P
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.2
 Date: 2026-06-29
