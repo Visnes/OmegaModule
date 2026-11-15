@@ -18,10 +18,10 @@ Desktop.ini
 .claude/
 CLAUDE.md
 SKILL.md
-/_TODO.md
+/_work/
 
 # Archives / builds
-/_archive/
+/_filearchive/
 *.zip
 *.tar.gz
 
